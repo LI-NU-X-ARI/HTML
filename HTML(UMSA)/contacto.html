@@ -3,22 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Práctica del Día 9</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
 </head>
-
 <body>
 
     <header>
         <h1>Formulario de contacto</h1>
 
         <nav>
-            <a href="index.html">Inicio</a>
-            <a href="Ejercicio9.html">Contacto</a>
+            <a href="contacto.html">Contacto</a>
         </nav>
     </header>
 
@@ -26,7 +21,6 @@
 
         <form action="#" method="post">
 
-            <!-- PREGUNTA 1: DATOS PERSONALES -->
             <fieldset>
 
                 <legend>Datos personales</legend>
@@ -92,6 +86,83 @@
 
             <fieldset>
 
+                <legend>Encuesta</legend>
+
+                <p>¿Cómo prefieres estudiar?</p>
+
+                <input
+                    type="radio"
+                    id="presencial"
+                    name="modalidad_estudio"
+                    value="presencial"
+                    required>
+
+                <label for="presencial">
+                    Presencial
+                </label>
+
+                <br>
+
+                <input
+                    type="radio"
+                    id="virtual"
+                    name="modalidad_estudio"
+                    value="virtual">
+
+                <label for="virtual">
+                    Virtual
+                </label>
+
+                <br>
+
+                <input
+                    type="radio"
+                    id="mixto"
+                    name="modalidad_estudio"
+                    value="mixto">
+
+                <label for="mixto">
+                    Mixto
+                </label>
+
+                <p>¿Qué tecnologías conoces?</p>
+
+                <input
+                    type="checkbox"
+                    id="html"
+                    name="tecnologias"
+                    value="html">
+
+                <label for="html">
+                    HTML
+                </label>
+
+                <br>
+
+                <input
+                    type="checkbox"
+                    id="css"
+                    name="tecnologias"
+                    value="css">
+
+                <label for="css">
+                    CSS
+                </label>
+
+                <br>
+
+                <input
+                    type="checkbox"
+                    id="javascript"
+                    name="tecnologias"
+                    value="javascript">
+
+                <label for="javascript">
+                    JavaScript
+                </label>
+
+                <br><br>
+
                 <label for="departamento">
                     Selecciona dónde naciste:
                 </label>
@@ -150,7 +221,7 @@
             <button type="submit">
                 Enviar formulario
             </button>
-            
+
         </form>
 
     </main>
