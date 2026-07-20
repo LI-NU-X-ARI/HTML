@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(90deg, rgba(36, 0, 8, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+div {
+    width: 300px;
+    height: 500px;
+    background-position: top;
+    border: 3px solid white;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    box-shadow: 0 0 55px 10px #FFFF;
+    color: white;
+    box-sizing: border-box;
+    padding-top: 15px; 
+    text-shadow: 10px 10px 50px red;
+} 
+
+img {
+    width: 250px;
+    height: 200px;
+    margin: none; 
+    border: none;
+}
+
+p {
+    background-color: #000F;
+    text-align: center;
+    width: 280px;
+    padding: 0 5px;
+    border: none;
+    background: transparent;
+    font-size: 23px;
+    font-style: sans-serif;
+    line-height: 35px;
+}

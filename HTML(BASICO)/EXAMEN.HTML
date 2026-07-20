@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Pregunta 1(Listas jerarquicas + formato + navegacion interna)</h2>
+    <p> Construya el siguiente mapa de contenidos usando <b> ol</b> y <b> ul</b>. Incluya <b> negrita</b>,cursiva,<u>subrayado</u>,<font color="blue">color</font>,saltos de lineas y separadores.</p>
+    <ol> 
+        <li>Modulo Principal</li>
+        <ul>
+            <li><a href="pregunta2">Ir a pregunta 2</a></li>  
+            <li><a href="pregunta3">Ir a pregunta 3</a></li>
+            <li><a href="pregunta3">Ir a pregunta 4</a></li>    
+            <li><b>Bloque A</b>
+            <ol>
+                <li><i>Estructura base</i></li>
+                <ul>
+                    <li>html</li>
+                    <li>head</li>
+                    <ul>
+                        <li>title</li>
+                    </ul>
+                    <li>body</li>
+                </ul>
+            </ol>
+            <li><b>Bloque B</b></li>
+            <ul>
+                <li>Texto: <b>b</b>,i,<u>u</u>,font</li>
+                <li>Separadores:<b>br</b> y <b>hr</b></li>
+            </ul>
+            <li>Bloque C</li>
+            <ol>
+                <li>Enlaces Internos</li>
+                <li>Enlaces externos</li>
+                <li>Multimedia</li>
+            </ol>
+            </li>
+            
+        </ul>
+    </ol>
+    <table border="1" align="center" width="900" cellspacing="0" cellpadding="6"> 
+        <tr>
+        <th colspan="6"> FACTURA-SISTEMA DE VENTAS</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Categoria </th>
+            <th rowspan="2">Codigo </th>
+            <th colspan="2"> Producto</th>
+            <th rowspan="2">Cantidad</th>
+            <th rowspan="2">Precio(Bs.)</th>
+        </tr>
+        <tr>
+            <th>Nombre</th>
+            <th>Garantia</th>
+        </tr>
+        <tr> 
+            <td rowspan="2">Electrònica</td>
+            <td> E-101</td>
+            <td> Televisor</td>
+            <td>12 meses </td>
+            <td align="center">1</td>
+            <td align="right">3500</td>
+        </tr>
+        <tr>
+            <td>E-205</td>
+            <td>Table Pro</td>
+            <td>6 meses</td>
+            <td align="center">2</td>
+            <td align="right">900</td>
+        </tr>
+        <tr>
+            <th align="right" colspan="5">Subtotal Electronica</th>
+            <th>5300</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Hogar</td>
+            <td>H-010</td>
+            <td>Muebles</td>
+            <td>24 meses</td>
+            <td align="center">1</td>
+            <td align="right">5000</td>
+        </tr>
+        <tr>
+            <td>H-112</td>
+            <td>Lampara</td>
+            <td>3 meses</td>
+            <td align="center">3</td>
+            <td align="rigth">120</td>
+        </tr>
+        <tr>
+            <th align="right" colspan="5">Subtotal Hogar</th>
+            <th>5360</th>
+        </tr>
+        <tr>
+            <td>Deporte</td>
+            <td>D-501</td>
+            <td>Bicicleta</td>
+            <td>6 meses</td>
+            <td align="center">1</td>
+            <td align="right">700</td>
+        </tr>
+        <tr>
+            <th align="right" colspan="5"> TOTAL</th>
+            <th>11360 Bs.</th>
+        </tr>
+    </table>
+</body>
+</html>

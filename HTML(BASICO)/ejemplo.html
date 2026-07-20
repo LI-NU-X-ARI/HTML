@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Curso de Informática - Estructura HTML</title>
+</head>
+<body>
+
+  <!-- Cabecera -->
+  <header>
+    <h1>Curso de Informática</h1>
+    <p>Bienvenido al curso básico de informática — conceptos, prácticas y recursos.</p>
+    <hr />
+  </header>
+
+  <!-- Tabla usada solo para maquetar sin CSS -->
+  <table border="0" width="100%" cellspacing="10">
+    <tr>
+      <!-- Columna de navegación (izquierda) -->
+      <td width="20%" valign="top">
+        <nav>
+          <h2>Menú</h2>
+          <ul>
+            <li><a href="#introduccion">Introducción</a></li>
+            <li><a href="#hardware">Hardware</a></li>
+            <li><a href="#software">Software</a></li>
+            <li><a href="#practicas">Prácticas</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+          </ul>
+          <p><strong>Contacto:</strong><br/>curso@informaticaejemplo.com</p>
+        </nav>
+      </td>
+
+      <!-- Área principal (derecha) -->
+      <td valign="top">
+        <!-- Primera sección: article grande con dos asides a la derecha -->
+        <section id="introduccion">
+          <table border="0" width="100%">
+            <tr>
+              <!-- Article (columna principal dentro de la sección) -->
+              <td width="65%" valign="top">
+                <article>
+                  <h2>Introducción al Curso</h2>
+                  <p>Este curso cubre los fundamentos de la informática: componentes de un ordenador, sistemas operativos, redes básicas y seguridad. Está pensado para principiantes y personas que desean consolidar conocimientos.</p>
+
+                  <h3>Temario breve</h3>
+                  <ol>
+                    <li>Conceptos básicos de hardware</li>
+                    <li>Sistemas operativos y software</li>
+                    <li>Redes y herramientas en línea</li>
+                    <li>Seguridad básica y buenas prácticas</li>
+                    <li>Proyectos prácticos</li>
+                  </ol>
+
+                  <h3>Video introductorio</h3>
+                  <!-- video embebido (YouTube) -->
+                  <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="Video introductorio"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+
+                </article>
+              </td>
+
+              <!-- Asides (dos cajas a la derecha, una encima de otra) -->
+              <td width="35%" valign="top">
+                <aside>
+                  <h3>Noticias</h3>
+                  <p>Próxima sesión en vivo: sábado a las 10:00.</p>
+                  <img src="https://via.placeholder.com/200x120?text=Noticias" alt="Imagen noticias" />
+                </aside>
+
+                <br />
+
+                <aside>
+                  <h3>Material recomendado</h3>
+                  <ul>
+                    <li>Libro: Fundamentos de Informática</li>
+                    <li>Curso online: Introducción a las redes</li>
+                    <li>Prácticas: ejercicios semanales</li>
+                  </ul>
+                  <img src="https://via.placeholder.com/200x120?text=Recursos" alt="Imagen recursos" />
+                </aside>
+              </td>
+            </tr>
+          </table>
+        </section>
+
+        <hr />
+
+        <!-- Segunda sección: sección más pequeña con un aside a la derecha -->
+        <section id="hardware">
+          <table border="0" width="100%">
+            <tr>
+              <td valign="top">
+                <h2>Hardware básico</h2>
+                <p>En esta unidad aprenderás las partes principales del computador: CPU, memoria, almacenamiento, tarjeta madre, periféricos y cómo realizar un mantenimiento básico.</p>
+
+                <h3>Ejercicio práctico</h3>
+                <p>Identifica los componentes internos de un equipo de escritorio y anota sus funciones.</p>
+
+                <img src="https://via.placeholder.com/400x200?text=Hardware" alt="Imagen hardware" />
+              </td>
+
+              <td width="30%" valign="top">
+                <aside>
+                  <h3>Tips rápidos</h3>
+                  <ul>
+                    <li>Apagar antes de limpiar.</li>
+                    <li>Usar herramienta antiestática.</li>
+                    <li>Respaldar antes de cambiar componentes.</li>
+                  </ul>
+                </aside>
+              </td>
+            </tr>
+          </table>
+        </section>
+
+        <hr />
+
+        <!-- Sección de software y recursos -->
+        <section id="software">
+          <h2>Software y prácticas</h2>
+          <p>Instalación de sistemas operativos, gestión de archivos, uso de suite ofimática y prácticas con programas libres.</p>
+
+          <h3>Recursos descargables</h3>
+          <table border="1" width="100%">
+            <tr>
+              <th>Nombre</th>
+              <th>Descripción</th>
+            </tr>
+            <tr>
+              <td>Guía de instalación</td>
+              <td>Manual paso a paso para instalaciones básicas.</td>
+            </tr>
+            <tr>
+              <td>Ejercicios</td>
+              <td>Archivo con ejercicios semanales.</td>
+            </tr>
+          </table>
+        </section>
+
+      </td>
+    </tr>
+
+    <!-- Pie de página -->
+    <tr>
+      <td colspan="2" valign="top">
+        <footer>
+          <hr />
+          <p>&copy; 2025 Curso de Informática - Todos los derechos reservados.</p>
+          <p>Dirección: ejemplo, Ciudad - Tel: +591 7 000000</p>
+        </footer>
+      </td>
+    </tr>
+  </table>
+
+</body>
