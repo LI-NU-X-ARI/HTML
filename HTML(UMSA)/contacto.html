@@ -8,16 +8,21 @@
     <link rel="stylesheet" href="CSS/estilos.css">
 </head>
 <body>
-
     <header>
-        <h1>Formulario de contacto</h1>
-
-        <nav>
-            <a href="contacto.html">Contacto</a>
-        </nav>
+        <div class="menu">
+            <ul>
+                <li><a href=""> Inicio </a></li>
+                <li> Formulario </li>
+                <li> Tarjeta </li>
+                <li> Mas sobre mi </li>
+            </ul>
+        </div>
+        <div class=" formulario ">
+            <h1>Formulario</h1>
+        </div>
     </header>
 
-    <main>
+    <main class="cuerpo">
 
         <form action="#" method="post">
 
@@ -70,19 +75,6 @@
             </fieldset>
 
             <br>
- 
-            <fieldset>
-
-                <legend>Validación</legend>
-
-                <p>
-                    Todos los campos son obligatorios.
-                    La edad debe estar entre 1 y 100 años.
-                </p>
-
-            </fieldset>
-
-            <br>
 
             <fieldset>
 
@@ -101,8 +93,6 @@
                     Presencial
                 </label>
 
-                <br>
-
                 <input
                     type="radio"
                     id="virtual"
@@ -112,8 +102,6 @@
                 <label for="virtual">
                     Virtual
                 </label>
-
-                <br>
 
                 <input
                     type="radio"
@@ -137,8 +125,6 @@
                     HTML
                 </label>
 
-                <br>
-
                 <input
                     type="checkbox"
                     id="css"
@@ -148,8 +134,6 @@
                 <label for="css">
                     CSS
                 </label>
-
-                <br>
 
                 <input
                     type="checkbox"
@@ -161,7 +145,7 @@
                     JavaScript
                 </label>
 
-                <br><br>
+                <br>
 
                 <label for="departamento">
                     Selecciona dónde naciste:

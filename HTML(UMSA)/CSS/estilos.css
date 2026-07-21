@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient( skyblue, pink);
+    background: linear-gradient( skyblue, purple );
     margin: 0;
     box-sizing: border-box;
     line-height: 1.6;
@@ -15,11 +15,51 @@ body {
     margin-bottom: 25px;
 }
 
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    border: 2px solid black;
+    background-color: slategray;
+}
+
+ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 10px 25px;
+    box-sizing: border-box;
+}
+
+.formulario {
+    margin-top: 110px;
+}
+
+.cuerpo {
+    margin:0;
+}
+
+li {
+    color: white;
+    padding: 10px 30px;
+    border: 2px solid purple;
+    border-radius: 50px;
+}
+
+li:hover {
+    background-color: purple;
+    color: white;
+}
+
 h1 {
+    margin: 0;
     color: red ;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 h2 {
@@ -33,4 +73,13 @@ h2 {
     margin: var(--esmargin);
     border: 2px solid grey;
     border-radius: 25px;
+}
+
+fieldset {
+    border: 2px solid rgb(82, 78, 78);
+    margin: 1px 100px;
+}
+
+br {
+    padding: 0;
 }
