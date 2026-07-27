@@ -1,0 +1,45 @@
+:root {
+    --color: white ;
+    --padding: 15px ;
+    --dis: flex;
+    --margin: 0;
+    --box: border-box; ;
+}
+
+body {
+    background-color: rgb(19, 18, 18);
+    margin: var(--margin);
+}
+
+h1 ,h2 {
+    color: var(--color);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+main {
+    display: var(--dis);
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 15;
+    box-sizing:var(--box);
+}
+
+div {
+    margin: 0 15px;
+    flex: 1;
+}
+
+h2 {
+    border: 2px solid white ;
+    border-radius: 15px;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 ;
+    padding-top: 10px;
+}

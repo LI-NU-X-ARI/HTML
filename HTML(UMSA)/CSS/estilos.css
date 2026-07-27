@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient( skyblue, purple );
+    background: linear-gradient(black , rgb(33, 32, 32) );
     margin: 0;
     box-sizing: border-box;
     line-height: 1.6;
@@ -78,8 +78,4 @@ h2 {
 fieldset {
     border: 2px solid rgb(82, 78, 78);
     margin: 1px 100px;
-}
-
-br {
-    padding: 0;
 }
