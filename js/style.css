@@ -5,7 +5,7 @@
 body {
     background:linear-gradient( black ,rgb(75, 71, 71) );
     min-height: 100vh;
-    min-width: 100%;
+    min-width: 100vh;
     box-sizing: border-box;
 }
 
@@ -19,6 +19,43 @@ body {
     margin: auto;
 }
 
-label {
-    color: white;
+.Formulario {
+    color: var(---color);
+    text-align: center;
+    margin-top: 25px;
+}
+
+.Datos {
+    margin: 25px 0 ;
+}
+
+.tabla-usuarios {
+    box-sizing: border-box;
+    margin: 0;
+    width: 96%;
+    padding: 0;
+}
+
+.tabla {
+    box-sizing: border-box;
+    border: 1px solid white;
+    min-width: 100%;
+    margin-left: 15px;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    color: var(---color);
+}
+
+.columnas {
+    border: 1px solid white;
+}
+
+tr {
+    margin: 0;
+    box-sizing: border-box;
+}
+thead {
+    margin: 0;
+    box-sizing: border-box;
 }
