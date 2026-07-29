@@ -383,8 +383,9 @@ i {
     }
 
     .conejo {
-        width: 70px;
-        height: 70px;
+        border: 1px solid red;
+        width: 70px !important;
+        height: 70px !important;
     }
 
     .eco4, .gota3, .flor3 {
