@@ -14,9 +14,12 @@ header {
     grid-template-columns:20% 1fr;
     align-items: center;
     position: sticky;
+    top: 0;
+    left: 0;
     width: 100%;
     background: #efe7e2;
     height: 105px;
+    z-index: 1000;
 }
 
 
@@ -166,26 +169,198 @@ h2 {
 }
 
 @media (max-width: 600px) {
-    .pain h2 {
-        font-size: 31px;
+    .pain , .lips {
+        font-size: 36px !important;
         line-height: 1.1;
     }
 
     .texto {
-        font-size: 8px;
+        font-size: 20px !important;
         line-height: 1.3;
+        margin-top: 30px;
     }
 
     .centro {
-        grid-template-columns: 15% 75% 15%;
+        grid-template-columns: 15% 70% 15%;
     }
 
     .labios {
-        width: 90%;
-        font-size: 15px;
+        width: 100%;
+        font-size: 25px !important;
     }
 
     .f , .n {
-        font-size: 40px;
+        font-size: 60px !important;
     }
+
+    .formas {
+        margin-top:35px;
+    }
+}
+
+i {
+    color: #708a1a;
+}
+
+.rel {
+    color:#50640f;
+}
+
+.beneficios {
+    margin-top: 0;
+    border: 1px solid transparent;
+    margin-bottom: 0;
+    padding-top: 0;
+} 
+
+.porque {
+    font-family: 10px;
+    margin-top: 113px;
+    padding-top: 0;
+}
+
+.pag2 {
+    display: flex;
+    gap: 2%;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.flor {
+    font-size: 35px;
+}
+
+.flor2 {
+    font-size: 24px;
+}
+
+.flor3 {
+    border-right: 2px solid black;
+    text-align: center;
+    padding-right: 20px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.flor4 {
+    font-size: 50px;
+}
+
+.gota {
+    font-size: 35px;
+}
+
+.gota2 {
+    font-size: 24px;
+}
+
+.gota3 {
+    border-right: 2px solid black;
+    text-align: center;
+    padding-right: 20px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.gota4 {
+    color: aquamarine;
+    font-size: 50px;
+}
+.eco {
+    font-size: 35px;
+}
+
+.eco2 {
+    font-size: 24px;
+}
+
+.eco3 {
+    font-size: 50px;
+}
+
+.eco4{
+    border-right: 2px solid black;
+    text-align: center;
+    padding-right: 20px;
+    height: 250px;
+    margin-top: 35px;
+}
+
+.pet {
+    text-align: center;
+    padding-right: 20px;
+}
+
+.pet1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.pet2 {
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.pet3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.ingre {
+    border: 2px solid #9db05c;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background: #9db05c;
+    padding: 0;
+    width: 95%;
+    border-radius: 25px;
+}
+
+.frase {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.natu {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.ingredientes {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    margin: 0 25px;
+    gap: 100px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.ingredientes{
+    margin-top: 0;
+}
+
+.manteca , .coco , .vita , .jojoba , .cera {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.manteca1 , .vita1 , .coco1 , .jojoba1 , .cera1 {
+    width: 100%;
+}
+
+.conejo {
+    margin-top: 0;
+    padding: 0;
+    width: 150px;
+    height: 150px;
 }
