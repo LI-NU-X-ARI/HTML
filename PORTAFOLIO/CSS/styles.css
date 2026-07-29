@@ -38,7 +38,7 @@ header {
 
 @media (max-width:768px) {
     .header {
-        grid-template-columns: 80px 1fr;
+        grid-template-columns: 40px 1fr;
         gap: 1px;
     }
 
@@ -170,7 +170,19 @@ h2 {
         font-size: 31px;
     }
 
-    .pain h4 {
-        font-size: 22px;
+    .texto {
+        font-size: 10px;
+    }
+
+    .centro {
+        grid-template-columns: 15% 75% 15%;
+    }
+
+    .labios {
+        font-size: 15px;
+    }
+
+    .f , .n {
+        font-size: 65px;
     }
 }
