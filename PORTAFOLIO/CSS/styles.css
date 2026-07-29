@@ -364,3 +364,38 @@ i {
     width: 150px;
     height: 150px;
 }
+
+@media ( max-width:600px ) {
+    .rel {
+        font-size: 21px !important;
+    }
+
+    .flor4 , .gota4 , .eco3 {
+        font-size: 20px;
+    } 
+
+    .flor , .gota , .eco , .pet2 {
+        font-size: 15px;
+    }
+
+    .flor2, .gota2, .eco2, .pet3 {
+        font-size: 12px;
+    }
+
+    .conejo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .eco4, .gota3, .flor3 {
+        height: 170px;
+    }
+
+    .cera1, .jojoba1, .vita1, .coco1, .manteca1 {
+        width: 50%;
+    }
+
+    .coco, .jojoba, .vita, .coco, .manteca {
+        font-size: 9px;
+    }
+}
