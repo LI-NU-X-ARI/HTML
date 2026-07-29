@@ -531,8 +531,7 @@ p {
 }
 
 .contacto {
-    display: grid;
-    grid-template-columns: 60% 1fr;
+    width: 100%;
 }
 
 .apartado {
@@ -554,40 +553,11 @@ p {
     margin-right: 10px;
 }
 
-.mapa {
-    margin: 10px 45px ;
-}
-
 .ubi {
     background:#a0bb48;
     text-align: center;
     box-sizing: border-box;
     border-radius: 25px;
-}
-
-.mapi {
-    background: rgb(208, 165, 147);
-    text-decoration: none;
-    border-radius: 25px;
-    padding: 10px;
-    color: #708a1a;
-    margin-top: 15px;
-}
-
-.boton {
-    background: #708a1a;
-    color: white;
-    border-radius: 25px;
-    padding: 10px;
-    justify-content: center;
-}
-
-.ubia {
-    padding-bottom: 15px;
-}
-
-.aqui {
-    margin-top: 0;
 }
 
 .envianos {
