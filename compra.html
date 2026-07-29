@@ -8,8 +8,28 @@
 </head>
 <body>
     <section>
-        <h1 class="Titulo"> Formulario de Registro </h1>
+        <h1 class="Titulo"> COMPRRA ONLINE </h1>
+    </section>
+    <section>
+        <img src="PORTAFOLIO/Imagenes/guindo.jpg" alt="Labial Rose Natural" class="guindo">
+    </section>
         <form class="Formulario" id="FormUsu">
+            <div class="Datos">
+            <label>Producto</label>
+            <p>Rosé Natural</p>
+            </div>
+
+            <div class="Datos">
+            <label>Precio</label>
+            <p>Bs. 45</p>
+            </div>
+
+            <div class="Datos">
+    <label>Cantidad</label>
+    <input type="number" id="cantidad" value="1" min="1">
+            </div>
+
+            <h2>Total: Bs. <span id="total">45</span></h2>
             <div class="Datos" >
                 <label for="nombre"> Nombre </label>
                 <input 
@@ -26,14 +46,6 @@
                     id="apellido" 
                     name="apellido"
                     placeholder="Ingrese su apellido" 
-                    required >
-            </div>
-            <div class="Datos" >
-                <label for="carnet"> Carnet </label>
-                <input 
-                    type="text" 
-                    id="carnet" 
-                    name="carnet"
                     required >
             </div>
             <div class="Datos" >
@@ -54,56 +66,49 @@
                     placeholder="+591 11122233" 
                     required >
             </div>
-            <div class="Datos" >
-                <label for="edad"> Edad </label>
-                <input 
-                    type="number" 
-                    id="edad" 
-                    name="edad"
-                    placeholder="Ingrese su edad" 
-                    required >
-            </div>
-            <div class="Datos" >
-                <label for="Genero"> Genero </label>
-                <select name="Genero" id="Genero">
-                    <option> Selecione... </option>
-                    <option value="Masculino"> Masculino </option>
-                    <option value="Femenino"> Femenino </option>
-                </select>
-            </div>
-            <div class="Datos" >
-                <label> Dirección </label>
-                <textarea 
-                    id="direccion" 
-                    name="direccion" 
-                    rows="2" >
-                </textarea>
-            </div>
+            <div class="pago">
+
+    <button type="button" id="btnPago">
+        Método de pago
+    </button>
+
+    <div id="opcionesPago" style="display:none;">
+
+        <h3>Seleccione método de pago</h3>
+
+        <label>
+            <input type="radio" name="pago" value="QR" id="qr">
+            QR
+        </label>
+
+        <br>
+
+        <label>
+            <input type="radio" name="pago" value="Efectivo" id="efectivo">
+            Efectivo
+        </label>
+
+    </div>
+
+
+    <div id="mostrarQR" style="display:none;">
+        <h3>Escanee el código QR</h3>
+        <img src="PORTAFOLIO/Imagenes/WhatsApp Image 2026-07-29 at 06.54.17.jpeg" class="qr">
+    </div>
+
+
+    <div id="mostrarEfectivo" style="display:none;">
+        <h3>Pago en efectivo</h3>
+        <p>Realice el pago al momento de la entrega.</p>
+    </div>
+
+</div>
             <div class="botones">
                 <button type="submit"> Enviar </button>
             </div>
-            <div class="botones">
-                <button type="reset"> Limpiar Formulario </button>
-            </div>
         </form>
     </section>
-    <section class="tabla-usuarios">
-        <table class="tabla">
-            <thead>
-                <tr>
-                    <td class="columnas"> Nombre </td>
-                    <td class="columnas"> Apellido </td>
-                    <td class="columnas"> Carnet </td>
-                    <td class="columnas"> Correo </td>
-                    <td class="columnas"> Telefono</td>
-                    <td class="columnas"> Edad </td>
-                    <td class="columnas"> Genero </td>
-                    <td class="columnas"> Dirección </td>
-                    <td class="columnas"> Acciones </td>
-                </tr>
-            </thead>    
-        </table>
-    </section>
+    <script src="PORTAFOLIO/JS/script.js"></script>
 </body>
 </html>
 </body>

@@ -18,6 +18,7 @@ body {
     box-sizing: border-box;
     align-items: center;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .Formulario {
@@ -30,33 +31,17 @@ body {
     margin: 25px 0 ;
 }
 
-.tabla-usuarios {
-    box-sizing: border-box;
-    margin: 0;
-    width: 96%;
-    padding: 0;
+.guindo {
+    border-radius: 15px;
+    border: 3px solid white;
+    display: block;
+    width: 350px;
+    height: 300px;
+    margin: auto;
 }
 
-.tabla {
-    box-sizing: border-box;
-    border: 1px solid white;
-    min-width: 100%;
-    margin-left: 15px;
-    align-items: center;
-    text-align: center;
-    margin-top: 30px;
-    color: var(---color);
-}
-
-.columnas {
-    border: 1px solid white;
-}
-
-tr {
-    margin: 0;
-    box-sizing: border-box;
-}
-thead {
-    margin: 0;
-    box-sizing: border-box;
+.qr {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
 }
