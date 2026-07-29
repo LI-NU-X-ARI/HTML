@@ -11,13 +11,14 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 20% 1fr;
-    width: 100%;
+    grid-template-columns:20% 1fr;
     align-items: center;
     position: sticky;
-    z-index: 1000;
+    width: 100%;
     background: #efe7e2;
+    height: 105px;
 }
+
 
 .logotipo {
     width: 100%;
@@ -29,16 +30,39 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:768px) {
+    .header {
+        grid-template-columns: 80px 1fr;
+        gap: 1px;
+    }
+
+    .menu{
+        gap: 1px;
+    }
+    
+    .botones {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .logotipo {
+        min-width: 60px;
+    }
 }
 
 .botones {
-    flex: 1;
+    white-space: nowrap;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
     color: #5f4028;
-    margin: 0 6%;
-    padding: 10px 0;
+    padding: 15px ;
 }
 
 .botones:hover {
