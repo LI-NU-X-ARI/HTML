@@ -190,7 +190,7 @@ h2 {
     }
 
     .f , .n {
-        font-size: 60px !important;
+        font-size: 40px !important;
     }
 
     .formas {
@@ -494,4 +494,30 @@ p {
     border-radius: 15px;
     padding: 10px 15px;
     margin-right: 25px;
+}
+
+@media (max-width: 600px) {
+    .nuestros {
+        font-size: 27px;
+    }
+    .rojo, .transparente, .guindo {
+        height: auto;
+        width: 100%;
+    }
+
+    .espacio,
+    .parrafo,
+    .precio {
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .producto1,.producto2,.producto3 {
+        width: 30%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
