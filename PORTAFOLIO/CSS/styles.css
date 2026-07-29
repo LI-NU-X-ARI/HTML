@@ -1,6 +1,11 @@
 :root {
     ---margin:auto;
     ---color:white;
+    ---padding:0;
+    ---margin: 0 auto;
+    ---display: flex;
+    ---box:border-box;
+    ---colorl: #708a1a;
 
 }
 
@@ -142,8 +147,8 @@ h2 {
     margin-top: 20px;
     font-size: 30px;
     padding: 0 0;
-    border: 1px solid #708a1a;
-    background: #708a1a;
+    border: 1px solid var(---colorl);
+    background: var(---colorl);
     border-radius: 30px;
     color: white;
 }
@@ -383,7 +388,6 @@ i {
     }
 
     .conejo {
-        border: 1px solid red;
         width: 70px !important;
         height: 70px !important;
     }
