@@ -482,12 +482,6 @@ p {
     margin: 20px 60px;
 }
 
-.bolivianos {
-    font-size: 40px;
-    margin: 0;
-    padding-top: 15px;
-}
-
 .comprar {
     background: #617815;
     color: white;
@@ -527,5 +521,121 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .comprar {
+        width: 60px;
+        font-size: 12px;
+        align-items: center;
+    }
+}
+
+.contacto {
+    display: grid;
+    grid-template-columns: 60% 1fr;
+}
+
+.apartado {
+    border: 2px solid #ddbcae;
+    margin: 0 15px;
+    border-radius: 25px;
+}
+
+.contac {
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+
+.correo {
+    text-align: center;
+}
+
+.logitos {
+    margin-right: 10px;
+}
+
+.mapa {
+    margin: 10px 45px ;
+}
+
+.ubi {
+    background:#a0bb48;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.mapi {
+    background: rgb(208, 165, 147);
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px;
+    color: #708a1a;
+    margin-top: 15px;
+}
+
+.boton {
+    background: #708a1a;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.ubia {
+    padding-bottom: 15px;
+}
+
+.aqui {
+    margin-top: 0;
+}
+
+.envianos {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.conejo {
+    margin-top: 0;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-widtgh:600px ) {
+
+    .nuestros1 {
+        font-size: 5px !important;
+    }
+
+    .contacto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+    gap: 25px;
+    }
+
+    aside {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ubi {
+        width: 100%;
+    }
+
+    .mapa {
+        width: 100%;
+        height: 150px;
+    }
+
+    .contac h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .correo {
+        font-size: 10px !important;
     }
 }
