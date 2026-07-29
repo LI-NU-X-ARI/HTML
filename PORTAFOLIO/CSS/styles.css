@@ -488,6 +488,7 @@ p {
     border-radius: 15px;
     padding: 10px 15px;
     margin-right: 25px;
+    text-decoration: none;
 }
 
 @media (max-width: 600px) {

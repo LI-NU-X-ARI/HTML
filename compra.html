@@ -4,8 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compras</title>
+    <link rel="stylesheet" href="PORTAFOLIO/CSS/style-compra.css">
 </head>
 <body>
-    
+    <section>
+        <h1 class="Titulo"> Formulario de Registro </h1>
+        <form class="Formulario" id="FormUsu">
+            <div class="Datos" >
+                <label for="nombre"> Nombre </label>
+                <input 
+                    type="text" 
+                    id="nombre" 
+                    name="nombre"
+                    placeholder="Ingrese su nombre" 
+                    required >
+            </div>
+            <div class="Datos" >
+                <label for="apellido"> Apellido </label>
+                <input 
+                    type="text" 
+                    id="apellido" 
+                    name="apellido"
+                    placeholder="Ingrese su apellido" 
+                    required >
+            </div>
+            <div class="Datos" >
+                <label for="carnet"> Carnet </label>
+                <input 
+                    type="text" 
+                    id="carnet" 
+                    name="carnet"
+                    required >
+            </div>
+            <div class="Datos" >
+                <label for="correo"> Correo </label>
+                <input 
+                    type="email" 
+                    id="correo" 
+                    name="correo"
+                    placeholder="usuario@gmail.com" 
+                    required >
+            </div>
+            <div class="Datos" >
+                <label for="telefono"> Telefono </label>
+                <input 
+                    type="text" 
+                    id="telefono" 
+                    name="telefono"
+                    placeholder="+591 11122233" 
+                    required >
+            </div>
+            <div class="Datos" >
+                <label for="edad"> Edad </label>
+                <input 
+                    type="number" 
+                    id="edad" 
+                    name="edad"
+                    placeholder="Ingrese su edad" 
+                    required >
+            </div>
+            <div class="Datos" >
+                <label for="Genero"> Genero </label>
+                <select name="Genero" id="Genero">
+                    <option> Selecione... </option>
+                    <option value="Masculino"> Masculino </option>
+                    <option value="Femenino"> Femenino </option>
+                </select>
+            </div>
+            <div class="Datos" >
+                <label> Dirección </label>
+                <textarea 
+                    id="direccion" 
+                    name="direccion" 
+                    rows="2" >
+                </textarea>
+            </div>
+            <div class="botones">
+                <button type="submit"> Enviar </button>
+            </div>
+            <div class="botones">
+                <button type="reset"> Limpiar Formulario </button>
+            </div>
+        </form>
+    </section>
+    <section class="tabla-usuarios">
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <td class="columnas"> Nombre </td>
+                    <td class="columnas"> Apellido </td>
+                    <td class="columnas"> Carnet </td>
+                    <td class="columnas"> Correo </td>
+                    <td class="columnas"> Telefono</td>
+                    <td class="columnas"> Edad </td>
+                    <td class="columnas"> Genero </td>
+                    <td class="columnas"> Dirección </td>
+                    <td class="columnas"> Acciones </td>
+                </tr>
+            </thead>    
+        </table>
+    </section>
+</body>
+</html>
 </body>
 </html>
