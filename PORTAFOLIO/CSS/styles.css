@@ -168,10 +168,12 @@ h2 {
 @media (max-width: 600px) {
     .pain h2 {
         font-size: 31px;
+        line-height: 1.1;
     }
 
     .texto {
-        font-size: 10px;
+        font-size: 8px;
+        line-height: 1.3;
     }
 
     .centro {
@@ -179,10 +181,11 @@ h2 {
     }
 
     .labios {
+        width: 90%;
         font-size: 15px;
     }
 
     .f , .n {
-        font-size: 65px;
+        font-size: 40px;
     }
 }
