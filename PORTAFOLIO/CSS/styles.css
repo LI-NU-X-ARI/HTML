@@ -47,7 +47,7 @@ header {
     }
     
     .botones {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
     }
 
@@ -80,13 +80,6 @@ header {
     box-sizing: border-box;
     margin-top: 40px;
     background: rgb(233, 202, 177);
-}
-
-.imagen {
-    width: 100%;
-    height: 100%;
-    max-height: 395px;
-    object-fit: contain;
 }
 
 .pain {
@@ -130,9 +123,15 @@ h2 {
 
 .bas {
     width: 100%;
-    height: 100%;
+    height: 395px;
     margin-right: 0;
 }
+
+.imagen {
+    width: 100%;
+    height: 100%;
+}
+
 
 .labios {
     width: 60%;
@@ -144,4 +143,34 @@ h2 {
     background: #708a1a;
     border-radius: 30px;
     color: white;
+}
+
+@media (max-width: 950px ) {
+    .pain h2 {
+        font-size: 24px;
+    }
+
+    .pain h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 900px ) {
+    .pain h2 {
+        font-size: 30px;
+    }
+
+    .pain h4 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 600px) {
+    .pain h2 {
+        font-size: 31px;
+    }
+
+    .pain h4 {
+        font-size: 22px;
+    }
 }
