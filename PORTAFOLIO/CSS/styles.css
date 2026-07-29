@@ -395,7 +395,21 @@ i {
         width: 50%;
     }
 
-    .coco, .jojoba, .vita, .coco, .manteca {
+    .coco, .jojoba, .vita, .cera, .manteca {
         font-size: 9px;
+    }
+
+    .frase {
+        font-size: 15px;
+        box-sizing: 80%;
+    }
+
+    .ingre {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+    .ingredientes {
+        gap: 45px;
     }
 }
