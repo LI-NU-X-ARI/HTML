@@ -392,11 +392,13 @@ i {
     }
 
     .cera1, .jojoba1, .vita1, .coco1, .manteca1 {
-        width: 50%;
+        width: 98%;
+        align-items: center;
     }
 
     .coco, .jojoba, .vita, .cera, .manteca {
-        font-size: 9px;
+        font-size: 8px;
+        text-align: center;
     }
 
     .frase {
@@ -410,6 +412,86 @@ i {
     }
 
     .ingredientes {
-        gap: 45px;
+        gap: 25px;
+        margin-left: 5px;
     }
+}
+
+.pro {
+    margin-top: 0px;
+    padding-top: 75px;
+}
+
+.nuestros {
+    text-align: center;
+    color:#50640f;
+    margin-bottom: 5px;
+    font-size: 45px;
+}
+
+.nuestros1 {
+    margin: 0 20px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.producto {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    width: 100%;
+    gap: 12%;
+    box-sizing: border-box;
+    padding: 0;
+    padding-left: 55px;
+    padding-right: 65px;
+    margin-top: 40px;
+}
+
+.espacio {
+    margin: 0;
+    margin-top: 15px;
+}
+
+.producto1 , .producto2 , .producto3 {
+    background: white;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid rgb(225, 154, 179);
+}
+
+.guindo , .rojo , .transparente {
+    width: 100%;
+    height: 230px;
+    border-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.precio {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parrafo {
+    margin: 20px 60px;
+}
+
+.bolivianos {
+    font-size: 40px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.comprar {
+    background: #617815;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-right: 25px;
 }
